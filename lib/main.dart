@@ -1,7 +1,18 @@
+
 import 'package:flutter/material.dart';
+import 'package:flutter_android/widget/stateful_widget.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    // const MyApp()
+    const MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: Counter(),
+        ),
+      ),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
