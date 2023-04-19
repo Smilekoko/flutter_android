@@ -1,14 +1,13 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_android/widget/stateful_widget.dart';
+import 'package:flutter_android/widget/text.dart';
 
 void main() {
   runApp(
-    // const MyApp()
     const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Counter(),
+          child: TextWidget(),
         ),
       ),
     ),
